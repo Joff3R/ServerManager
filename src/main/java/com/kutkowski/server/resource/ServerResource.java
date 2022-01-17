@@ -1,4 +1,4 @@
-package resource;
+package com.kutkowski.server.resource;
 
 import com.kutkowski.server.enumeration.Status;
 import com.kutkowski.server.model.Response;
