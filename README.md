@@ -1,4 +1,4 @@
-# ServerApp
+# Server Manager
 ## Introduction
 Application allows users to manage their local and online servers. 
 
