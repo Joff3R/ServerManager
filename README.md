@@ -30,6 +30,10 @@ git clone https://github.com/Joff3R/ServerManager
 ```
 npm install -g @angular/cli
 ```
+- clone the repository
+```
+git clone https://github.com/Joff3R/ServerManager-frontend
+```
 - go to the project directory and run command:
 ```
 ng serve
