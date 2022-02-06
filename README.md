@@ -4,17 +4,38 @@ Application allows users to manage their local and online servers.
 
 ## Technologies
 
-Java JDK 17, Spring Boot, MySQL
+Backend: Java JDK 17, Spring Boot, MySQL <br>
+Frontend: Angular, Bootstrap
 
 ## Launch
 
-* Download: Java JDK 17, Maven, MySQL Workbench
+### Backend Server:
+
+- Download: Java JDK 17, Maven, MySQL Workbench
 - For Windows: add Java 17 JDK and Maven to your environment variables
-- clone the repository 
+- clone the repository
+```
+git clone https://github.com/Joff3R/ServerManager
+```
 - set the compiler as Java 17
 - download all Maven dependencies and reload the project
 - Start MySQL server (the project uses local DB infrastructure - JPA will create & insert tables automatically)
-- run project by executing Spring Boot Runner (in Intellij: right upper corner)
+- run project by executing Spring Boot Runner (in Intellij: right upper corner). Server starts on port 8080.
+
+### Frontend Client:
+
+- Download: Node.js
+- For Windows: add Node.js to your environment variables
+- Install Angular CLI
+```
+npm install -g @angular/cli
+```
+- go to the project directory and run command:
+```
+ng serve
+```
+- Client starts on port 4200.
+
 
 ## Use cases
 
