@@ -43,8 +43,32 @@ ng serve
 
 ## Use cases
 
-As a user I want to have a dashboard with my servers with following details: IP Address, Name, Memory, Type, Status, Ping, Actions so that I can retrieve all neccesary details of my servers.
+### 1:
+As a user <br>
+I want to have a dashboard with my servers with following details: IP Address, Name, Memory, Type, Status, Ping, Actions <br>
+so that I can retrieve all neccesary details of my servers.
 
-As a user I want to be able to ping one of my servers to check its connectivity.
+### 2:
+As a user <br>
+I want to ping one of my servers <br>
+to check its connectivity.
 
-As 
+### 3:
+As a user <br>
+I want to delete one of my servers <br>
+so it doesn't appear anymore on the dashboard
+
+### 4:
+As a user <br> 
+I want to sort server dashboard by status <br>
+so it only displays servers that interest me
+
+### 5:
+As a user <br> 
+I want to add new server to the dasboard, providing following details: IP, Name, Memory, Type, Status <br>
+so that I can follow connectivity of a new server in the dashboard
+
+### 6:
+As a user <br> 
+I want to print report in xls file that contains all information from dashboard <br>
+so that I have all necessary information at hand in seperate Excel file
