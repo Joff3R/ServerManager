@@ -1,6 +1,5 @@
 package com.kutkowski.server.resource;
 
-import com.kutkowski.server.enumeration.Status;
 import com.kutkowski.server.model.Response;
 import com.kutkowski.server.model.Server;
 import com.kutkowski.server.service.implementation.ServerServiceImplementation;
@@ -20,7 +19,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Map;
 
-import static com.kutkowski.server.enumeration.Status.*;
+import static com.kutkowski.server.enumeration.Status.SERVER_UP;
 import static java.time.LocalDateTime.now;
 import static org.springframework.http.HttpStatus.CREATED;
 import static org.springframework.http.HttpStatus.OK;
@@ -61,7 +60,7 @@ public class ServerResource {
     }
 
     @PostMapping("/save")
-    public ResponseEntity<Response> saveServer(@RequestBody @Valid Server server){
+    public ResponseEntity<Response> saveServer(@RequestBody @Valid Server server) {
         return ResponseEntity.ok(
                 Response.builder()
                         .timeStamp(now())
