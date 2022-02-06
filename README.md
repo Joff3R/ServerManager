@@ -4,7 +4,7 @@ Project
 
 ## Technologies
 
-Java JDK 17, Spring Boot
+Java JDK 17, Spring Boot, MySQL
 
 ## Launch
 
