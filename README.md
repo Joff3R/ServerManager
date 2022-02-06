@@ -1,4 +1,7 @@
 # Server Manager
+
+![Animation](https://user-images.githubusercontent.com/30385512/152684950-a6bed683-5c7b-4f30-9d8d-04179c1f73fa.gif)
+
 ## Introduction
 Application allows users to manage their local and online servers. 
 
